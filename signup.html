@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up page</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<h3>Register Your Account</h3>
+
+	<form>
+		<label for="first">First Name:</label>
+		<input name="first" id="first" type="text" placeholder="Ajith" required="true">
+		<label for="last">Last Name:</label>
+		<input name="last" id="last" type="text" placeholder="Kumar" required="true">
+	<div>
+		<label for="gender">Gender:</label>
+		<label for="male">Male</label>
+		<input name="gender" type="radio" value="male">
+		<label for="female">Female</label>
+		<input name="gender" type="radio" value="female">
+	</div>
+	<div>
+		<label>
+			Email:
+				<input name="email" type="email" placeholder="your email" required="true">
+		</label>
+		<label>
+			Password:
+				<input name="password" type="password" pattern=".{5,10}" required title="Password must be 5 to 10 characters">
+		</label>
+	</div>
+	<div>
+		<label for="age":>Age:</label>
+		<input name="age" id="age" type="text" required="true">
+	</div>
+	<div>
+		<label for="mobilenumber">Mobile Number:</label>
+		<input name="mobilenumber" id="mobilenumber" type="tel" required="true">
+	</div>
+	<div>
+		<label for="iagreetothe">I agree to the terms and conditions</label>
+		<input name="iagreetothe" type="checkbox" value="iagreetothe">
+	</div>
+	<div>
+		<input name="submit" type="button" value="Submit">
+	</div>
+
+	</form>
+
+
+
+
+</body>
+</html>
